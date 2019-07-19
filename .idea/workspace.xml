@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges/CHK_R2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="227">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/lib/send_command_to_server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="382">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -182,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items">
+  <component name="RunManager" selected="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item">
     <configuration name="Unittests for CHK.test_checkout.TestCheckout" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="accelerate_runner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,9 +260,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" />
-        <item itemvalue="Python tests.Unittests in test_checkout.py" />
         <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item" />
+        <item itemvalue="Python tests.Unittests in test_checkout.py" />
+        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" />
         <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_lowercase" />
         <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout" />
       </list>
@@ -280,26 +280,11 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="9047000" />
+      <workItem from="1563559669428" duration="9356000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 21h 16m 27s.xml">
-      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied_two_items - 2019.07.19 at 21h 20m 56s.xml">
-      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 21h 29m 08s.xml">
-      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item - 2019.07.19 at 21h 31m 04s.xml">
-      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item - 2019.07.19 at 21h 31m 14s.xml">
-      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout - 2019.07.19 at 21h 31m 21s.xml">
       <configuration name="Unittests for CHK.test_checkout.TestCheckout" configurationId="tests" />
     </history-entry>
@@ -315,21 +300,36 @@
     <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 21h 34m 33s.xml">
       <configuration name="Unittests in test_checkout.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied_two_items - 2019.07.19 at 21h 41m 20s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied_two_items - 2019.07.19 at 21h 41m 51s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item - 2019.07.19 at 21h 42m 14s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item - 2019.07.19 at 21h 42m 15s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 21h 42m 34s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12628000" />
+    <option name="totallyTimeSpent" value="12937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34685165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34685165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -383,11 +383,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
           <line>9</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -401,11 +396,6 @@
           <line>42</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -414,12 +404,12 @@
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_empty.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_empty Coverage Results" MODIFIED="1563565878354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_lowercase.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_lowercase Coverage Results" MODIFIED="1563568362977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_compute_py.coverage" NAME="Unittests in test_compute.py Coverage Results" MODIFIED="1563560171824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
-    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563568473598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563568954848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$send_command_to_server.coverage" NAME="send_command_to_server Coverage Results" MODIFIED="1563559879190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount Coverage Results" MODIFIED="1563567101672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_mixed_case.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_mixed_case Coverage Results" MODIFIED="1563565473507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
-    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item Coverage Results" MODIFIED="1563568387437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied_two_items.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items Coverage Results" MODIFIED="1563568880895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount_free_item.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount_free_item Coverage Results" MODIFIED="1563568991440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied Coverage Results" MODIFIED="1563565385257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout Coverage Results" MODIFIED="1563568281906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
   </component>
@@ -609,7 +599,7 @@
     <entry file="file://$PROJECT_DIR$/lib/send_command_to_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -618,15 +608,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/CHK_R2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="227">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="382">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -635,13 +625,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
   </component>
 </project>
+
 
 
 
