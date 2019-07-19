@@ -7,8 +7,9 @@ from solutions.ARRS import array_sum
 from solutions.IRNG import int_range
 from solutions.FIZ import fizz_buzz_solution
 from solutions.CHK import checkout_solution
-from runner.utils import Utils
-from runner.user_input_action import get_user_input
+from .runner.utils import Utils
+from .runner.user_input_action import get_user_input
+
 
 """
   ~~~~~~~~~~ Running the system: ~~~~~~~~~~~~~
@@ -66,5 +67,6 @@ ChallengeSession \
     .with_config(Utils.get_config()) \
     .with_action_provider(lambda: get_user_input(sys.argv[1:])) \
     .start()
+
 
 
