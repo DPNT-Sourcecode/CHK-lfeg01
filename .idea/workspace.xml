@@ -34,8 +34,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -43,8 +43,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+                <state relative-caret-position="135">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -183,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_compute.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_checkout.py">
     <configuration name="send_command_to_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="accelerate_runner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,6 +206,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_checkout.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="accelerate_runner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_compute.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="accelerate_runner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +238,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_checkout.py" />
         <item itemvalue="Python tests.Unittests in test_compute.py" />
         <item itemvalue="Python.send_command_to_server" />
       </list>
@@ -240,7 +256,7 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="2449000" />
+      <workItem from="1563559669428" duration="2666000" />
     </task>
     <servers />
   </component>
@@ -248,21 +264,36 @@
     <history-entry file="Unittests_in_test_compute_py - 2019.07.19 at 19h 16m 12s.xml">
       <configuration name="Unittests in test_compute.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 50m 12s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 50m 27s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 50m 55s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 51m 35s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 51m 52s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6030000" />
+    <option name="totallyTimeSpent" value="6247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14994664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14994664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -305,8 +336,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_compute_py.coverage" NAME="Unittests in test_compute.py Coverage Results" MODIFIED="1563560171824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563562312532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$send_command_to_server.coverage" NAME="send_command_to_server Coverage Results" MODIFIED="1563559879190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
   </component>
   <component name="editorHistoryManager">
@@ -479,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -489,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
