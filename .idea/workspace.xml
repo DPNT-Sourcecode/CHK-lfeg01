@@ -43,8 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -294,7 +294,7 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="4207000" />
+      <workItem from="1563559669428" duration="4296000" />
     </task>
     <servers />
   </component>
@@ -331,7 +331,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7788000" />
+    <option name="totallyTimeSpent" value="7877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
@@ -614,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="420">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -624,5 +624,6 @@
     </entry>
   </component>
 </project>
+
 
 
