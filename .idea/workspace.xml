@@ -35,7 +35,7 @@
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+                  <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -43,8 +43,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+                <state relative-caret-position="360">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -89,9 +89,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2884" />
+    <option name="width" value="956" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -187,29 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for CHK.test_checkout.TestCheckout">
-    <configuration name="send_command_to_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="accelerate_runner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/send_command_to_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_checkout.py">
     <configuration name="Unittests for CHK.test_checkout.TestCheckout" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="accelerate_runner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,6 +200,36 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;CHK.test_checkout.TestCheckout&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="accelerate_runner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CHK.test_checkout.TestCheckout.test_invalid_input_empty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_lowercase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="accelerate_runner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CHK.test_checkout.TestCheckout.test_invalid_input_lowercase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -257,10 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout" />
         <item itemvalue="Python tests.Unittests in test_checkout.py" />
+        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_lowercase" />
+        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_empty" />
+        <item itemvalue="Python tests.Unittests for CHK.test_checkout.TestCheckout" />
         <item itemvalue="Python tests.Unittests in test_compute.py" />
-        <item itemvalue="Python.send_command_to_server" />
       </list>
     </recent_temporary>
   </component>
@@ -276,14 +285,11 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="3460000" />
+      <workItem from="1563559669428" duration="3534000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 50m 12s.xml">
-      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 50m 27s.xml">
       <configuration name="Unittests in test_checkout.py" configurationId="tests" />
     </history-entry>
@@ -311,9 +317,12 @@
     <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 19h 57m 41s.xml">
       <configuration name="Unittests in test_checkout.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout - 2019.07.19 at 20h 05m 59s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7041000" />
+    <option name="totallyTimeSpent" value="7115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
@@ -324,7 +333,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,10 +389,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_empty.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_empty Coverage Results" MODIFIED="1563563257810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_lowercase.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_lowercase Coverage Results" MODIFIED="1563563377315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_compute_py.coverage" NAME="Unittests in test_compute.py Coverage Results" MODIFIED="1563560171824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
-    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563562660958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563563385107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$send_command_to_server.coverage" NAME="send_command_to_server Coverage Results" MODIFIED="1563559879190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
-    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout Coverage Results" MODIFIED="1563563159658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_for_CHK_test_checkout_TestCheckout.coverage" NAME="Unittests for CHK.test_checkout.TestCheckout Coverage Results" MODIFIED="1563563236060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -535,16 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/send_command_to_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/TST/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -578,10 +579,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/send_command_to_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -591,14 +602,9 @@
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
-
-
-
-
