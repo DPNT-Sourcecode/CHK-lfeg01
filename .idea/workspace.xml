@@ -34,20 +34,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="51" selection-start-line="51" selection-end-line="51" />
+                <state relative-caret-position="225">
+                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+                <state relative-caret-position="390">
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/lib/solutions/SUM/sum_solution.py" />
         <option value="$PROJECT_DIR$/lib/solutions/SUM/test_compute.py" />
         <option value="$PROJECT_DIR$/lib/solutions/HLO/hello_solution.py" />
-        <option value="$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py" />
         <option value="$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py" />
+        <option value="$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py" />
       </list>
     </option>
   </component>
@@ -297,14 +297,11 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="7758000" />
+      <workItem from="1563559669428" duration="8110000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount - 2019.07.19 at 21h 04m 22s.xml">
-      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_multi_discount - 2019.07.19 at 21h 10m 50s.xml">
       <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_multi_discount" configurationId="tests" />
     </history-entry>
@@ -332,9 +329,12 @@
     <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 21h 16m 27s.xml">
       <configuration name="Unittests in test_checkout.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied_two_items - 2019.07.19 at 21h 20m 56s.xml">
+      <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied_two_items" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11339000" />
+    <option name="totallyTimeSpent" value="11691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
@@ -345,8 +345,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,11 +394,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py</url>
           <line>31</line>
           <option name="timeStamp" value="7" />
@@ -410,13 +405,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
-          <line>17</line>
+          <line>28</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
           <line>9</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -635,20 +635,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="390">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
