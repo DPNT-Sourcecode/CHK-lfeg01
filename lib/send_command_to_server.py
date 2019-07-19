@@ -1,15 +1,14 @@
 import sys
 from tdl.queue.queue_based_implementation_runner import QueueBasedImplementationRunnerBuilder
 from tdl.runner.challenge_session import ChallengeSession
-from .solutions.SUM import sum_solution
-from .solutions.HLO import hello_solution
-from .solutions.ARRS import array_sum
-from .solutions.IRNG import int_range
-from .solutions.FIZ import fizz_buzz_solution
-from .solutions.CHK import checkout_solution
-from .runner.utils import Utils
-from .runner.user_input_action import get_user_input
-
+from solutions.SUM import sum_solution
+from solutions.HLO import hello_solution
+from solutions.ARRS import array_sum
+from solutions.IRNG import int_range
+from solutions.FIZ import fizz_buzz_solution
+from solutions.CHK import checkout_solution
+from runner.utils import Utils
+from runner.user_input_action import get_user_input
 
 """
   ~~~~~~~~~~ Running the system: ~~~~~~~~~~~~~
@@ -52,19 +51,20 @@ from .runner.user_input_action import get_user_input
  
 """
 
-runner = QueueBasedImplementationRunnerBuilder()\
-    .set_config(Utils.get_runner_config())\
-    .with_solution_for('sum', sum_solution.compute)\
-    .with_solution_for('hello', hello_solution.hello)\
-    .with_solution_for('array_sum', array_sum.compute)\
-    .with_solution_for('int_range', int_range.generate)\
-    .with_solution_for('fizz_buzz', fizz_buzz_solution.fizz_buzz)\
-    .with_solution_for('checkout', checkout_solution.checkout)\
+runner = QueueBasedImplementationRunnerBuilder() \
+    .set_config(Utils.get_runner_config()) \
+    .with_solution_for('sum', sum_solution.compute) \
+    .with_solution_for('hello', hello_solution.hello) \
+    .with_solution_for('array_sum', array_sum.compute) \
+    .with_solution_for('int_range', int_range.generate) \
+    .with_solution_for('fizz_buzz', fizz_buzz_solution.fizz_buzz) \
+    .with_solution_for('checkout', checkout_solution.checkout) \
     .create()
 
-ChallengeSession\
-    .for_runner(runner)\
-    .with_config(Utils.get_config())\
-    .with_action_provider(lambda: get_user_input(sys.argv[1:]))\
+ChallengeSession \
+    .for_runner(runner) \
+    .with_config(Utils.get_config()) \
+    .with_action_provider(lambda: get_user_input(sys.argv[1:])) \
     .start()
+
 
