@@ -34,8 +34,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -43,20 +43,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+                <state relative-caret-position="435">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/lib/python3.7/unittest/case.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="614" selection-start-line="614" selection-end-line="614" />
                 </state>
               </provider>
             </entry>
@@ -66,10 +57,15 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/challenges/CHK_R2.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/challenges/CHK_R1.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="390">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -294,14 +290,11 @@
       <updated>1563556045995</updated>
       <workItem from="1563556047210" duration="541000" />
       <workItem from="1563556608816" duration="3040000" />
-      <workItem from="1563559669428" duration="4560000" />
+      <workItem from="1563559669428" duration="4762000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 20h 11m 55s.xml">
-      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_invalid_input_mixed_case - 2019.07.19 at 20h 12m 45s.xml">
       <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_invalid_input_mixed_case" configurationId="tests" />
     </history-entry>
@@ -329,20 +322,23 @@
     <history-entry file="Unittests_for_CHK_test_checkout_TestCheckout_test_discount_applied - 2019.07.19 at 20h 23m 57s.xml">
       <configuration name="Unittests for CHK.test_checkout.TestCheckout.test_discount_applied" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_checkout_py - 2019.07.19 at 20h 24m 18s.xml">
+      <configuration name="Unittests in test_checkout.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8141000" />
+    <option name="totallyTimeSpent" value="8343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30879122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16862327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +392,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py</url>
-          <line>22</line>
+          <line>27</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -584,15 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/CHK_R1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.7/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -606,10 +595,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges/CHK_R2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/test_checkout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -618,13 +617,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/solutions/CHK/checkout_solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
-
-
