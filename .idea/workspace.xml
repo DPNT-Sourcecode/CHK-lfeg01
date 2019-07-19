@@ -85,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1050" />
@@ -355,7 +355,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_compute_py.coverage" NAME="Unittests in test_compute.py Coverage Results" MODIFIED="1563560171824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
-    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563562413706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
+    <SUITE FILE_PATH="coverage/accelerate_runner$Unittests_in_test_checkout_py.coverage" NAME="Unittests in test_checkout.py Coverage Results" MODIFIED="1563562660958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/solutions" />
     <SUITE FILE_PATH="coverage/accelerate_runner$send_command_to_server.coverage" NAME="send_command_to_server Coverage Results" MODIFIED="1563559879190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
   </component>
   <component name="debuggerHistoryManager">
@@ -566,4 +566,5 @@
     </entry>
   </component>
 </project>
+
 
